@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loading {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 9999;
+}
+
+.expandedDropDown {  
+  width: 100%;
+  height: 55vh;
+  background: #343a40;
+  border-top: 1px #7b7b7b solid;
+}
+
+.nav-item {
+  padding: 0 8px !important;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
