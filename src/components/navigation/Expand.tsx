@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     width: '100%',
+    backgroundColor: '#44454675',
   },
   svg: {
     width: 100,
@@ -27,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Expands = (props: any) => {
-  const { checked, activeNav } = props
+  const { checked, activeNav, bgcolor } = props
   const classes = useStyles()
 
   return (

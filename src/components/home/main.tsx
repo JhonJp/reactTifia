@@ -18,11 +18,11 @@ const useStyles = makeStyles((theme: Theme) => ({
         alignContent: 'center',
     },
     marginTop150: {
-        marginTop: 150,
+        marginTop: 100,
     },
     containerBg: {
         position: 'absolute',
-        height: 800,
+        height: 750,
         top: 0,
         left: 0,
         right: 0,
@@ -86,15 +86,6 @@ const Mainpage = (props: any) => {
                         </Grid>
                     </Grid>
                     <Grid container className={classStyle.containerRoot + ' ' + classStyle.marginTop150}>
-                        <Grid item xs={12}>
-                            <Grid container justify="center" spacing={2}>
-                                {[0, 1, 2, 3, 5, 6].map((value) => (
-                                    <Grid key={value} item>
-                                        <Paper className={classStyle.paperGrid} />
-                                    </Grid>
-                                ))}
-                            </Grid>
-                        </Grid>
                         <Grid item xs={12}>
                             <Grid container justify="center" spacing={2}>
                                 {[0, 1, 2, 3, 5, 6].map((value) => (

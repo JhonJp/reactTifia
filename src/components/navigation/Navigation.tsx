@@ -33,7 +33,7 @@ const Navigation = (props: any) => {
 
   return (
     <>
-      <Navbar color={color} dark expand="md" style={{ padding: '1% 10%' }} sticky="top">
+      <Navbar color={color} dark expand="md" style={{ padding: '1% 10%', backgroundColor: '#44454675' }} sticky="top">
         <NavbarBrand href="/">
           <img
             src={navigation.logo[0].url}
@@ -63,7 +63,7 @@ const Navigation = (props: any) => {
           </Nav>
         </Collapse>
       </Navbar>
-      <Expands checked={checked} activeNav={activeNav} />
+      <Expands checked={checked} activeNav={activeNav} bgcolor={color} />
     </>
   );
 }
